@@ -2,10 +2,6 @@
 
 ## Salesforce CRM Project
 
-![Salesforce](https://img.shields.io/badge/Platform-Salesforce-00A1E0)
-![CRM](https://img.shields.io/badge/Domain-CRM-blue)
-![Status](https://img.shields.io/badge/Status-Completed-success)
-
 ---
 
 ## 1. Project Overview
