@@ -1,127 +1,130 @@
-# Case-Management-System
+# Case Management System (CMS)
 
-📌 Project Overview
+## Salesforce CRM Project
 
-The Vendor Management System (VMS) is a Salesforce-based CRM solution designed to manage customer issues, automate case handling, improve communication, and track case resolution efficiently.
+![Salesforce](https://img.shields.io/badge/Platform-Salesforce-00A1E0)
+![CRM](https://img.shields.io/badge/Domain-CRM-blue)
+![Status](https://img.shields.io/badge/Status-Completed-success)
 
-It provides a centralized platform to handle customer complaints related to product defects, billing, warranty, and technical issues.
+---
 
-🎯 Key Features
+## 1. Project Overview
 
-Customer and Product Management
+The Case Management System (CMS) is a Salesforce-based CRM solution designed to manage customer issues, automate case handling, and improve customer support operations.
 
-Automated Case Creation using Email-to-Case and Web-to-Case
+## 2. Problem Statement
 
-Case Assignment and Engineer Management
+- Difficulty in tracking customer issues.
+- Manual case assignment and follow-up.
+- Lack of centralized customer information.
+- Delays in resolving customer complaints.
+- Limited visibility into case performance.
 
-Salesforce Flow Automation
+## 3. Proposed Solution
 
-Automated Email Notifications
+- Centralized Customer and Product Management.
+- Automated Case Creation.
+- Engineer Assignment and Case Tracking.
+- Automated Email Notifications.
+- Seven-Day Resolution SLA Tracking.
+- Reports and Dashboards.
 
-Seven-Day Resolution SLA Tracking
+## 4. Technologies Used
 
-Omni-Channel Case Routing
+- Salesforce CRM
+- Standard Objects: User, Contact, Product, Case
+- Custom Fields and Formula Fields
+- Salesforce Flow Builder
+- Email-to-Case
+- Web-to-Case
+- Omni-Channel
+- Validation Rules
+- Reports and Dashboards
 
-Reports and Interactive Dashboards
+## 5. Object Configuration
 
-Validation Rules for Case Owner Management
+- User – Manages system users and engineers.
+- Contact – Stores customer information.
+- Product – Maintains product details.
+- Case – Tracks customer complaints and issues.
 
-🛠️ Technologies Used
+## 6. Case Management & Automation
 
-Salesforce CRM
+- Email-to-Case Configuration
+- Web-to-Case Configuration
+- Email Routing and Contact Association
+- Case Auto-Response Rules
+- Email Templates
+- Queue and Assignment Rules
 
-Standard Objects: User, Contact, Product, Case
+### Salesforce Flows
 
-Custom Fields and Formula Fields
+1. Auto Associate Existing Contact
+2. VMS Case Assignment Notification
+3. VMS Case Resolution Notification
+4. VMS Case Closure Notification
 
-Salesforce Flow Builder
+## 7. SLA Management
 
-Email-to-Case
+Implemented a Seven-Day Resolution Target to monitor customer issue resolution.
 
-Web-to-Case
+- Target Resolution Date – Formula Field.
+- Resolution Status – Formula Field.
 
-Omni-Channel
+## 8. Validation Rule
 
-Validation Rules
+**Rule Name:** `Restrict_Engineer_Reassignment`
 
-Reports and Dashboards
+Restricts non-System Administrators from changing Case Owner.
 
-⚙️ Implementation Details
+## 9. Omni-Channel Routing
 
-1. Object Configuration
+- Configured Omni-Channel.
+- Set up Routing Configuration.
+- Configured Agent Availability.
+- Enabled Case Routing to Available Agents.
 
-Configured User, Contact, Product, and Case objects with page layouts, related lists, and custom fields.
+## 10. Reports & Dashboard
 
-2. Case Management
+### Reports Created
 
-Implemented Email-to-Case and Web-to-Case for automatic case creation, contact association, and case assignment.
+1. All Cases Report
+2. Cases by Priority
+3. Cases by Status
+4. Cases by Resolution Status
+5. Cases by Issue Type
+6. Everyday Case Report
 
-3. Flow Automation
+### Dashboard
 
-Created automated flows for:
+**Case Management Dashboard**
 
-Auto Associate Existing Contact
+Monitors case priority, status, issue type, and resolution status.
 
-VMS Case Assignment Notification
-
-VMS Case Resolution Notification
-
-VMS Case Closure Notification
-
-4. Validation Rule
-
-Implemented Restrict_Engineer_Reassignment to restrict non-System Administrators from changing Case Owner.
-
-5. SLA Management
-
-Implemented a seven-day resolution target using formula fields to monitor case resolution status.
-
-6. Omni-Channel
-
-Configured Omni-Channel routing to distribute incoming cases to available agents and reduce manual assignment.
-
-7. Reports & Dashboards
-
-Created reports to analyze cases by:
-
-Priority
-
-Status
-
-Issue Type
-
-Resolution Status
-
-Daily Opened and Closed Cases
-
-Developed the VMS Case Management Dashboard to monitor overall case performance.
-
-🔄 Project Workflow
+## 11. End-to-End Workflow
 
 Customer Issue → Case Creation → Contact Association → Case Assignment → Engineer Processing → Resolution → Closure → Dashboard Monitoring
 
-📊 Project Outcomes
+## 12. Project Outcomes
 
-Centralized customer issue management.
+- Centralized customer issue management.
+- Improved case assignment and tracking.
+- Automated email notifications.
+- Better SLA monitoring.
+- Reduced manual case distribution.
+- Improved reporting and dashboard visibility.
 
-Improved case tracking and assignment.
+## 13. Skills Demonstrated
 
-Automated notifications and workflows.
+`Salesforce CRM` `Flow Builder` `Case Management` `Omni-Channel` `Email-to-Case` `Web-to-Case` `Validation Rules` `Reports & Dashboards`
 
-Better monitoring of resolution targets.
+## 14. Project Information
 
-Improved visibility through reports and dashboards.
+- **Project Name:** Case Management System (CMS)
+- **Platform:** Salesforce CRM
+- **Project Type:** Salesforce Administration & Automation
+- **Domain:** Customer Relationship Management
 
-🎓 Skills Demonstrated
+---
 
-Salesforce Administration | CRM Configuration | Flow Builder | Case Management | Omni-Channel | Email-to-Case | Web-to-Case | Validation Rules | Reports & Dashboards
-
-👨‍💻 Project Details
-
-Project Name: Vase Management System
-
-Platform: Salesforce CRM
-
-Project Type: Salesforce Administration & Automation
-
-Domain: Customer Relationship Management
+**Thank You for Visiting My Project!** ⭐ 
